@@ -1,0 +1,46 @@
+/*parte de la cabecera*/
+#cabecera {
+    background-color: rgb(19, 155, 218);
+    float:left ;
+    width: 100%;
+}
+h1 {
+    margin-left: 15%;
+    float: left;
+}
+#imagen{
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+/*parte de los botones*/
+nav{
+    text-align: center;
+    top: 10px;
+    position: relative;
+}
+input:hover{
+    background-color: rgb(19, 155, 218);
+    padding-bottom: 20px;
+}
+/*parte de caja texto y pie*/
+#cajatexto {
+    position: absolute;
+    margin: 50px;
+    width: 90%;
+    height: 10%;
+    border: 1px coral solid;
+    font-size: 32px;
+    background-color: rgb(241, 120, 76);
+    color: white;
+}
+footer {
+    position: relative;
+    font-size: 12;
+    text-align: center;
+    top: 200px;
+}
+
+
